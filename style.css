@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #2b2b2b;
+    color: #f1c40f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #f1c40f;
+    border-radius: 10px;
+    background-color: #3b3b3b;
+    box-shadow: 0 4px 8px rgba(241, 196, 15, 0.2);
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+label, input, select, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #f1c40f;
+    color: #2b2b2b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e1b800;
+}
+
+#resultado {
+    color: #2ecc71;
+    text-shadow: 0 0 10px #27ae60;
+}
+
+#resultadoBooleano {
+    color: #e74c3c;
+    text-shadow: 0 0 10px #c0392b;
+}
